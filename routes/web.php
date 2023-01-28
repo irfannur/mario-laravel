@@ -15,9 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('admin.index');
+})->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/dashboard', function () {
     return view('admin.index');
@@ -25,6 +29,9 @@ Route::get('/dashboard', function () {
 
 Route::controller(AdminController::class)->group(function () {
     Route::get('/admin/logout', 'logout')->name('admin.logout');
+    Route::get('/admin/profile', 'profile')->name('admin.profile');
+    Route::get('/admin/profile/edit', 'profile_edit')->name('admin.profile.edit');
+    Route::post('/admin/profile/save', 'profile_save')->name('admin.profile.save');
 });
 
 Route::middleware('auth')->group(function () {
