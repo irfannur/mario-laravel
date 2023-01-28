@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Applications/MAMP/htdocs/lrvl/resources/views/auth/reset-password.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/lrvl/resources/views/layouts/guest.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/lrvl/resources/views/components/application-logo.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/lrvl/resources/views/components/input-error.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/lrvl/resources/views/auth/forgot-password.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/lrvl/resources/views/auth/verify-email.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/lrvl/app/Http/Controllers/Auth/PasswordResetLinkController.php</file>
+            <file>file:/Applications/MAMP/htdocs/lrvl/resources/views/components/input-label.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/lrvl/resources/views/auth/login.blade.php</file>
+        </group>
+    </open-files>
+</project-private>
